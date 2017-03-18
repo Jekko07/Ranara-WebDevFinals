@@ -1,3 +1,5 @@
+//server.js
+//require modules
 var express = require('express');
 var path = require('path');
 //instantiate express
@@ -10,9 +12,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'views/app.html'));
 });
-// app.get('/about', function(req, res){
-//   res.sendFile(path.join(__dirname, 'views/about.html'));
-// });
+app.get('/', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/about.html'));
+});
 app.get('*', function(req, res){
   res.status(404).sendFile(path.join(__dirname, 'views/404.html'));
 });

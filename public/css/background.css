@@ -1,0 +1,25 @@
+#box-wrapper{
+	background-image: url("C:\Users\Jekko\Desktop\Jekko\images\9kbaYx.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 640px;
+}
+
+#box-wrapper{
+	text-align: center;
+	color:#333;
+	border:5px solid #333;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: 'Baloo Chettan', cursive;
+	font-weight:bold;
+	background:#eee;
+}
+#box-wrapper p{
+	text-align: justify;
+	font-size: 15px;
+	font-family: 'Play', sans-serif;
+	padding:20px;
+}
