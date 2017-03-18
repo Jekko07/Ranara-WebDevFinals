@@ -6,7 +6,7 @@ $('#app').html(`
 
 setTimeout(function(){
 	x();
-},2000);
+},1000);
 
 function x(){
 	$.ajax({
