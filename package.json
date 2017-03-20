@@ -1,15 +1,25 @@
 {
-  "name": "Jekko",
+  "name": "Ranara-FinalExam",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Jericho Ranara Final Exam for WebDevelopment 1",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jekko07/Ranara-WebDevFinals.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.15.2"
-  }
+  "bugs": {
+    "url": "https://github.com/Jekko07/Ranara-WebDevFinals/issues"
+  },
+  "homepage": "https://github.com/Jekko07/Ranara-WebDevFinals#readme"
 }
